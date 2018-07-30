@@ -1,8 +1,18 @@
-Hi Guys,
-this is an ODD or EVEN game.
 
-In a simple sense, its just a hand cricket game.
+# Odd or Even Game
 
-You can see instructions while playing THE Game.
+**Version 1.0.1**
 
-NOTE: DONT PRESS UNNECESSARY BUTTONS DURING GAME
+It is a well known nostalgic game which we all used to play using hand.
+
+---
+
+### Instructions
+Install Python 3.4 or higer version to play this game.
+
+---
+
+### Bugs
+You will only know weather you have won or lost the game at the end.
+
+---
