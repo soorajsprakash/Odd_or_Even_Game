@@ -1,5 +1,8 @@
-# PythonWorks
-All my Python works will be found in this repo.
+Hi Guys,
+this is an ODD or EVEN game.
 
+In a simple sense, its just a hand cricket game.
 
-( Install python 3.4 for this to work.)
+You can see instructions while playing THE Game.
+
+NOTE: DONT PRESS UNNECESSARY BUTTONS DURING GAME
