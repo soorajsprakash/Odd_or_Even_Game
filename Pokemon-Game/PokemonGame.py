@@ -1,38 +1,22 @@
 #The Pokemon Game
-import time
 
-time.sleep(0.7)
 print('|-----------------------------------------------|')
-time.sleep(0.7)
 print('|--        Welcome to the POKEMON GAME        --|')
-time.sleep(0.7)
 print('|-----------------------------------------------|')
-time.sleep(0.7)
 print("|              Time to catch some pokemon..!!   |")
-time.sleep(0.7)
 print('|                           Author - soorajsp   |')
-time.sleep(0.7)
 print('|-----------------------------------------------|')
-time.sleep(0.7)
 print('')
 print('')
-time.sleep(1)
 print('|-----------------------------------------------|')
-time.sleep(0.4)
 print('|--              GAME INSTRUCTIONS            --|')
-time.sleep(0.4)
 print('|-----------------------------------------------|')
-time.sleep(0.4)
 print('| 1. Type Y or YES to say YES                   |')
-time.sleep(0.4)
 print('| 2. Press ENTER to say NO                      |')
-time.sleep(0.4)
 print('|-----------------------------------------------|')
 print('')
 print('')
-time.sleep(2)
 print('LET\'S PLAY..!!!')
-time.sleep(1)
 print('')
 
 z = [] #pokemon catching net
@@ -54,38 +38,30 @@ else :
 	print(z)
 	
 
-time.sleep(1)
 print('Lets move to the Pokemon Gym.....')
-time.sleep(2)
 print('------------------------------------------------------')
 print('     	   Welcome to the POKEMON gym!!!             ')
 print('------------------------------------------------------')
-time.sleep(0.8)
 
 print("Pokemon in your collection : ")
 print(z)
 
-time.sleep(1)
 s = []  #gym team
 print('Pokemon in your gym team : ')
 print(s)
 
-time.sleep(1)
 d = input('which pokemon will you add to your team? (pick from the pokemon net) : ')
 print(0.5)
 print('I choose you , ' + d)
 z.remove(d)
 s.append(d)
 
-time.sleep(0.5)
 e = input('would you like to stay in Pokemon gym? : ')
 while(e == 'y' or e == 'yes'):
         print("Pokemon in your collection : ")
         print(z)
-        time.sleep(1)
         print('Pokemon in your gym team : ')
         print(s)
-        time.sleep(1)
         d = input('which pokemon will you add to your team? : ')
         print('I choose you , ' + d)
         z.remove(d)
