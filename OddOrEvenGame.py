@@ -3,6 +3,7 @@
 import random
 import time
 
+
 time.sleep(0.5)
 print('|-----------------------------------------------|')
 time.sleep(0.5)
@@ -42,6 +43,7 @@ def oddoreven():
 
         try:
             while int(b) not in range(0, 7, 1):
+                print('Wrong Input')
                 b = input('Enter a number from 0-6 : ')
         except ValueError:
             print('"Wrong Input"')
@@ -70,6 +72,7 @@ def bat_code(usr, pc):
             p = input('Enter your number: ')
             try:
                 while int(p) not in range(0, 7, 1):
+                    print('Wrong Input')
                     p = input('Enter your number: ')
             except ValueError:
                 print('Wrong Input')
@@ -101,6 +104,7 @@ def bat_code(usr, pc):
                 p = input('Enter your number: ')
                 try:
                     while int(p) not in range(0, 7, 1):
+                        print('Wrong Input')
                         p = input('Enter your number: ')
                 except ValueError:
                     print('Wrong Input')
@@ -162,6 +166,7 @@ def ball_code(usr, pc):
             p = input('Enter your number: ')
             try:
                 while int(p) not in range(0, 7, 1):
+                    print('Wrong Input')
                     p = input('Enter your number: ')
             except ValueError:
                 print('Wrong Input')
@@ -194,6 +199,7 @@ def ball_code(usr, pc):
                 p = input('Enter your number: ')
                 try:
                     while int(p) not in range(0, 7, 1):
+                        print('Wrong Input')
                         p = input('Enter your number: ')
                 except ValueError:
                     print('Wrong Input')
